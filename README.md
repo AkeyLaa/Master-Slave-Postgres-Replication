@@ -5,7 +5,7 @@ Master-Slave-Postgres-Replication.
   * Для начала поднять докер: `docker-compose up`
   * Чтобы посмотреть переменные среды для использования, смотри `docker-compose.yml`.
   * Для использования нескольких ведомых(slave):
-    * `docker-compose up`
+    * `docker-compose up -d`
     * `docker-compose scale pg-slave=3`
 
 ## Замечания
